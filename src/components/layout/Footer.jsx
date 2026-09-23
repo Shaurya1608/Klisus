@@ -82,10 +82,10 @@ export default function Footer() {
             <div className="pt-2">
               <a
                 href="#final-cta"
-                className="inline-flex items-center space-x-2 px-6 py-2.5 rounded-full bg-gradient-to-r from-[#204270] to-[#18375e] text-white text-xs sm:text-sm font-semibold border border-blue-300/40 shadow-md hover:from-[#285086] hover:to-[#1f4270] hover:border-blue-200/60 transition-all duration-300 transform hover:scale-[1.03] active:scale-[0.97]"
+                className="inline-flex items-center space-x-2 px-6 py-2.5 rounded-full bg-white text-slate-950 text-xs sm:text-sm font-semibold border border-blue-100 shadow-md hover:bg-slate-950 hover:text-white hover:border-slate-950 transition-all duration-300 transform hover:scale-[1.03] active:scale-[0.97]"
               >
                 <span>Contact us</span>
-                <ArrowUpRight className="w-3.5 h-3.5 text-blue-200" />
+                <ArrowUpRight className="w-3.5 h-3.5" />
               </a>
             </div>
           </motion.div>

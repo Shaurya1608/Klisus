@@ -118,9 +118,9 @@ export default function HeroSection({
           {/* Action Pill Button */}
           <button
             onClick={() => setIsVideoModalOpen(true)}
-            className="bg-gradient-to-r from-[#204270] to-[#18375e] text-white font-bold text-xs sm:text-sm uppercase tracking-wider px-5 sm:px-6 py-2.5 sm:py-3 rounded-full flex items-center space-x-2.5 sm:space-x-3 border border-blue-300/40 shadow-[0_8px_25px_rgba(24,55,94,0.4)] hover:from-[#285086] hover:to-[#1f4270] hover:border-blue-200/60 transition-all duration-300 transform hover:scale-[1.03] active:scale-[0.97] group min-h-[44px]"
+            className="bg-white text-slate-950 font-bold text-xs sm:text-sm uppercase tracking-wider px-5 sm:px-6 py-2.5 sm:py-3 rounded-full flex items-center space-x-2.5 sm:space-x-3 border border-blue-100 shadow-[0_8px_25px_rgba(255,255,255,0.25)] hover:bg-slate-950 hover:text-white hover:border-slate-950 transition-all duration-300 transform hover:scale-[1.03] active:scale-[0.97] group min-h-[44px]"
           >
-            <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-white text-[#18375e] flex items-center justify-center group-hover:scale-110 transition-transform shadow-sm">
+            <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-slate-950 text-white group-hover:bg-white group-hover:text-slate-950 flex items-center justify-center transition-all duration-300 shadow-sm">
               <ArrowRight className="w-3 h-3 sm:w-3.5 sm:h-3.5 stroke-[2.5]" />
             </div>
             <span>Explore KliSus</span>
