@@ -14,14 +14,8 @@ export default function IntelligenceSection() {
         {/* TOP HEADER GRID */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 lg:gap-16 items-start mb-8 sm:mb-12 lg:mb-16">
           
-          {/* TOP LEFT: EYEBROW BADGE, HEADLINE & FOCUS AREAS */}
+          {/* TOP LEFT: HEADLINE & FOCUS AREAS */}
           <div className="lg:col-span-6 space-y-4 sm:space-y-6">
-            {/* EYEBROW BADGE */}
-            <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full text-[10px] sm:text-[11px] font-semibold tracking-widest uppercase text-blue-700 bg-white/90 border border-blue-200/80 shadow-sm">
-              <span className="w-1.5 h-1.5 rounded-full bg-blue-600" />
-              <span>SECTION 04 — INTELLIGENCE</span>
-            </div>
-
             {/* HEADLINE */}
             <h2 className="text-3xl sm:text-5xl lg:text-6xl font-normal text-slate-950 tracking-tight leading-[1.12]">
               Understand what is <span className="text-blue-600 font-normal">changing.</span>

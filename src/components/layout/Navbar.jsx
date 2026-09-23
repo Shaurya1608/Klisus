@@ -17,19 +17,27 @@ export default function Navbar({
     >
       {/* Left Navigation Links */}
       <nav className="hidden lg:flex items-center space-x-6 lg:space-x-8 text-xs sm:text-sm font-medium tracking-wide text-slate-700">
-        <a href="#destination" className="hover:text-slate-950 transition-colors relative group py-1">
-          <span>Destination</span>
+        <a href="/" className="hover:text-slate-950 transition-colors relative group py-1">
+          <span>Home</span>
           <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-slate-900 transition-all duration-300 group-hover:w-full" />
         </a>
-        <a href="#package" className="hover:text-slate-950 transition-colors relative group py-1">
-          <span>Package</span>
+        <a href="/#the-shift" className="hover:text-slate-950 transition-colors relative group py-1">
+          <span>The Shift</span>
           <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-slate-900 transition-all duration-300 group-hover:w-full" />
         </a>
-        <a href="#pricing" className="hover:text-slate-950 transition-colors relative group py-1">
-          <span>Pricing</span>
+        <a href="/#how-we-drive-impact" className="hover:text-slate-950 transition-colors relative group py-1">
+          <span>Impact</span>
           <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-slate-900 transition-all duration-300 group-hover:w-full" />
         </a>
-        <a href="#about" className="hover:text-slate-950 transition-colors relative group py-1">
+        <a href="/#innovation" className="hover:text-slate-950 transition-colors relative group py-1">
+          <span>Innovation</span>
+          <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-slate-900 transition-all duration-300 group-hover:w-full" />
+        </a>
+        <a href="/partnerships" className="hover:text-slate-950 transition-colors relative group py-1">
+          <span>Partnerships</span>
+          <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-slate-900 transition-all duration-300 group-hover:w-full" />
+        </a>
+        <a href="/about" className="hover:text-slate-950 transition-colors relative group py-1">
           <span>About Us</span>
           <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-slate-900 transition-all duration-300 group-hover:w-full" />
         </a>
@@ -48,7 +56,7 @@ export default function Navbar({
 
       {/* Center Logo */}
       <div className="flex items-center justify-center">
-        <a href="#" className="flex items-center space-x-1 font-sans text-xl sm:text-2xl font-bold tracking-tight text-slate-950 group">
+        <a href="/" className="flex items-center space-x-1 font-sans text-xl sm:text-2xl font-bold tracking-tight text-slate-950 group">
           <span className="group-hover:opacity-85 transition-opacity">KliSus</span>
           <span className="text-[10px] font-sans tracking-widest text-slate-500 ml-0.5 transform group-hover:rotate-12 transition-transform">✈</span>
         </a>

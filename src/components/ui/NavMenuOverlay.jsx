@@ -5,11 +5,12 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function NavMenuOverlay({ isMenuOpen, setIsMenuOpen }) {
   const menuLinks = [
-    { label: "The Shift", href: "#the-shift" },
-    { label: "Destinations & Impact", href: "#how-we-drive-impact" },
-    { label: "Intelligence", href: "#intelligence" },
-    { label: "Innovation", href: "#innovation" },
-    { label: "Partnerships", href: "#partnerships" },
+    { label: "Home", href: "/" },
+    { label: "About Us", href: "/about" },
+    { label: "The Shift", href: "/#the-shift" },
+    { label: "Impact", href: "/#how-we-drive-impact" },
+    { label: "Innovation", href: "/#innovation" },
+    { label: "Partnerships", href: "/partnerships" },
   ];
 
   return (

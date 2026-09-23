@@ -4,10 +4,8 @@ import { useState } from "react";
 import Navbar from "@/components/layout/Navbar";
 import HeroSection from "@/components/sections/HeroSection";
 import TheShiftSection from "@/components/sections/TheShiftSection";
-import IntelligenceSection from "@/components/sections/IntelligenceSection";
-import InnovationSection from "@/components/sections/InnovationSection";
 import ImpactSection from "@/components/sections/ImpactSection";
-import PartnershipsSection from "@/components/sections/PartnershipsSection";
+import InnovationSection from "@/components/sections/InnovationSection";
 import FinalCtaSection from "@/components/sections/FinalCtaSection";
 import VideoModal from "@/components/ui/VideoModal";
 import NavMenuOverlay from "@/components/ui/NavMenuOverlay";
@@ -87,19 +85,9 @@ export default function Home() {
         <ImpactSection />
       </FadeInScroll>
 
-      {/* SECTION 04 — INTELLIGENCE */}
-      <FadeInScroll direction="up">
-        <IntelligenceSection />
-      </FadeInScroll>
-
-      {/* SECTION 05 — INNOVATION */}
+      {/* SECTION 04 — INNOVATION */}
       <FadeInScroll direction="up">
         <InnovationSection />
-      </FadeInScroll>
-
-      {/* SECTION 06 — PARTNERSHIPS */}
-      <FadeInScroll direction="up">
-        <PartnershipsSection />
       </FadeInScroll>
 
       {/* SECTION 07 — FINAL CTA */}
