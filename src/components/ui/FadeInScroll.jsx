@@ -9,10 +9,10 @@ export default function FadeInScroll({
   className = "",
 }) {
   const directionOffset = {
-    up: { y: 40, x: 0 },
-    down: { y: -40, x: 0 },
-    left: { x: 40, y: 0 },
-    right: { x: -40, y: 0 },
+    up: { y: 24, x: 0 },
+    down: { y: -24, x: 0 },
+    left: { x: 24, y: 0 },
+    right: { x: -24, y: 0 },
     none: { x: 0, y: 0 },
   };
 
@@ -29,13 +29,13 @@ export default function FadeInScroll({
         x: 0,
         y: 0,
       }}
-      viewport={{ once: true, margin: "-60px" }}
+      viewport={{ once: true, margin: "-40px" }}
       transition={{
-        duration: 0.7,
+        duration: 0.6,
         delay,
-        ease: [0.21, 0.47, 0.32, 0.98],
+        ease: [0.16, 1, 0.3, 1], // Apple-style smooth cubic-bezier curve
       }}
-      className={className}
+      className={`${className} transform-gpu`}
     >
       {children}
     </motion.div>
