@@ -43,7 +43,7 @@ export default function FinalCtaSection() {
             {/* PRIMARY CTA */}
             <a
               href="#partner"
-              className="w-full sm:w-auto inline-flex items-center justify-center space-x-3 px-7 py-3 sm:py-3.5 rounded-full bg-slate-950 text-white text-xs sm:text-sm font-semibold uppercase tracking-wider hover:bg-blue-600 transition-all duration-300 shadow-md group min-h-[44px]"
+              className="w-full sm:w-auto inline-flex items-center justify-center space-x-3 px-7 py-3 sm:py-3.5 rounded-full bg-gradient-to-r from-[#204270] to-[#18375e] text-white text-xs sm:text-sm font-semibold uppercase tracking-wider border border-blue-300/40 hover:from-[#285086] hover:to-[#1f4270] hover:border-blue-200/60 transition-all duration-300 shadow-md group min-h-[44px]"
             >
               <span>Partner with KliSus</span>
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
@@ -52,9 +52,9 @@ export default function FinalCtaSection() {
             {/* SECONDARY CTA */}
             <a
               href="#contact"
-              className="w-full sm:w-auto inline-flex items-center justify-center space-x-3 px-7 py-3 sm:py-3.5 rounded-full bg-white/95 text-slate-900 border border-blue-200/90 text-xs sm:text-sm font-semibold uppercase tracking-wider hover:bg-white hover:border-blue-300 hover:text-blue-700 transition-all duration-300 shadow-sm group min-h-[44px]"
+              className="w-full sm:w-auto inline-flex items-center justify-center space-x-3 px-7 py-3 sm:py-3.5 rounded-full bg-white/95 text-[#18375e] border border-blue-300/80 text-xs sm:text-sm font-semibold uppercase tracking-wider hover:bg-[#204270] hover:text-white hover:border-[#204270] transition-all duration-300 shadow-sm group min-h-[44px]"
             >
-              <Mail className="w-4 h-4 text-slate-600 group-hover:text-blue-700 transition-colors" />
+              <Mail className="w-4 h-4 text-[#204270] group-hover:text-white transition-colors" />
               <span>Contact KliSus</span>
             </a>
           </div>

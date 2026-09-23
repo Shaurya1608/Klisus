@@ -213,7 +213,7 @@ export default function ImpactSection() {
                   {isActive && (
                     <motion.div
                       layoutId="activeTabImpact"
-                      className="absolute inset-0 bg-slate-950 rounded-xl sm:rounded-full shadow-md"
+                      className="absolute inset-0 bg-gradient-to-r from-[#204270] to-[#18375e] rounded-xl sm:rounded-full shadow-md border border-blue-300/40"
                       transition={{ type: "spring", stiffness: 400, damping: 35 }}
                     />
                   )}
@@ -269,7 +269,7 @@ export default function ImpactSection() {
               <div className="pt-4 border-t border-slate-100 mt-4 sm:mt-0">
                 <a
                   href={currentContent.ctaHref}
-                  className="inline-flex items-center justify-between w-full px-4 sm:px-5 py-2.5 sm:py-3 rounded-full bg-slate-950 text-white text-xs sm:text-sm font-semibold uppercase tracking-wider hover:bg-blue-600 transition-all duration-300 shadow-md group min-h-[42px]"
+                  className="inline-flex items-center justify-between w-full px-4 sm:px-5 py-2.5 sm:py-3 rounded-full bg-gradient-to-r from-[#204270] to-[#18375e] text-white text-xs sm:text-sm font-semibold uppercase tracking-wider border border-blue-300/40 hover:from-[#285086] hover:to-[#1f4270] hover:border-blue-200/60 transition-all duration-300 shadow-md group min-h-[42px]"
                 >
                   <span>{currentContent.ctaText}</span>
                   <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center group-hover:scale-110 transition-transform">
