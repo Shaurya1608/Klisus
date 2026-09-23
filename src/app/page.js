@@ -57,7 +57,7 @@ export default function Home() {
   return (
     <div className="min-h-screen w-full overflow-x-hidden bg-[#eef2f6] text-slate-900 font-sans selection:bg-slate-900 selection:text-white">
       {/* FIRST FOLD: NAVBAR + HERO SECTION */}
-      <div className="min-h-screen lg:h-[calc(100vh+50px)] w-full flex flex-col justify-between px-1 sm:px-2 md:px-3 pt-1 pb-2 space-y-2 sm:space-y-0">
+      <div className="min-h-screen lg:h-[calc(100vh-15px)] w-full flex flex-col justify-between px-1 sm:px-2 md:px-3 pt-1 pb-2 space-y-1.5 sm:space-y-2">
         {/* TOP NAVIGATION BAR */}
         <Navbar
           isLangEn={isLangEn}

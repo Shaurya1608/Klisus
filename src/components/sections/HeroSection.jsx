@@ -12,7 +12,7 @@ export default function HeroSection({
   setIsVideoModalOpen,
 }) {
   return (
-    <section className="relative w-full max-w-[1680px] mx-auto flex-1 rounded-[24px] sm:rounded-[36px] md:rounded-[44px] overflow-hidden shadow-2xl bg-slate-950 text-white flex flex-col justify-between p-4 sm:p-6 lg:p-8 pb-5 sm:pb-6 min-h-[500px] sm:min-h-[580px] transition-all duration-700 border border-white/10">
+    <section className="relative w-full max-w-[1680px] mx-auto flex-1 rounded-[24px] sm:rounded-[36px] md:rounded-[44px] overflow-hidden shadow-2xl bg-slate-950 text-white flex flex-col justify-between px-4 sm:px-6 lg:px-8 pt-3 sm:pt-4 lg:pt-5 pb-4 sm:pb-5 min-h-[460px] sm:min-h-[520px] lg:min-h-[550px] transition-all duration-700 border border-white/10">
       {/* HERO BACKGROUND VIDEO / IMAGE */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
         {currentSlide.bgVideo ? (
@@ -54,7 +54,7 @@ export default function HeroSection({
       />
 
       {/* TOP & MIDDLE SECTION: GIANT TYPOGRAPHY "KLISUS", SUBTITLE & TAGS */}
-      <div className="relative z-10 w-full flex flex-col items-center text-center mt-10 sm:mt-6 lg:mt-8 mb-2 sm:mb-auto">
+      <div className="relative z-10 w-full flex flex-col items-center text-center mt-1 sm:mt-2 lg:mt-2 mb-2 sm:mb-auto">
         {/* Giant Background Brand Title */}
         <motion.h1
           initial={{ opacity: 0, y: 35, scale: 0.96 }}
