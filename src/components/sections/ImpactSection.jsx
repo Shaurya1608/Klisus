@@ -291,16 +291,16 @@ export default function ImpactSection() {
                 {currentContent.cards.map((card, idx) => (
                   <div
                     key={idx}
-                    className="w-[250px] sm:w-[290px] h-[340px] sm:h-[370px] shrink-0 rounded-[20px] sm:rounded-[24px] relative overflow-hidden bg-[#020617] border border-blue-900/40 shadow-xl p-5 sm:p-6 flex flex-col justify-between group transition-all duration-500 hover:border-blue-400/60 hover:shadow-2xl"
+                    className="w-[250px] sm:w-[290px] h-[340px] sm:h-[370px] shrink-0 rounded-[20px] sm:rounded-[24px] relative overflow-hidden bg-gradient-to-b from-[#1b3456] to-[#0f1f36] border border-blue-300/30 shadow-xl p-5 sm:p-6 flex flex-col justify-between group transition-all duration-500 hover:border-blue-400/60 hover:shadow-2xl"
                   >
                     {/* BACKGROUND IMAGE */}
                     <Image
                       src={card.image}
                       alt={card.title}
                       fill
-                      className="object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out brightness-[0.85]"
+                      className="object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out brightness-[0.85] opacity-80"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#020617] via-[#020617]/55 to-transparent pointer-events-none" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#0f1f36] via-[#142946]/60 to-transparent pointer-events-none" />
 
                     {/* CARD TOP BADGE & INDEX */}
                     <div className="relative z-10 flex items-center justify-between">

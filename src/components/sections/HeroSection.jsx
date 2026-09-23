@@ -12,7 +12,7 @@ export default function HeroSection({
   setIsVideoModalOpen,
 }) {
   return (
-    <section className="relative w-full max-w-[1680px] mx-auto flex-1 rounded-[24px] sm:rounded-[36px] md:rounded-[44px] overflow-hidden shadow-2xl bg-slate-950 text-white flex flex-col justify-between px-4 sm:px-6 lg:px-8 pt-3 sm:pt-4 lg:pt-5 pb-4 sm:pb-5 min-h-[460px] sm:min-h-[520px] lg:min-h-[550px] transition-all duration-700 border border-white/10">
+    <section className="relative w-full max-w-[1680px] mx-auto flex-1 rounded-[24px] sm:rounded-[36px] md:rounded-[44px] overflow-hidden shadow-2xl bg-gradient-to-b from-[#1b3456] via-[#142946] to-[#0f1f36] text-white flex flex-col justify-between px-4 sm:px-6 lg:px-8 pt-3 sm:pt-4 lg:pt-5 pb-4 sm:pb-5 min-h-[460px] sm:min-h-[520px] lg:min-h-[550px] transition-all duration-700 border border-blue-300/30">
       {/* HERO BACKGROUND VIDEO / IMAGE */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
         {currentSlide.bgVideo ? (
@@ -28,7 +28,7 @@ export default function HeroSection({
               }
             }}
             key={currentSlide.bgVideo}
-            className="absolute inset-0 object-cover object-center w-full h-full scale-105 brightness-100 contrast-100 transition-all duration-1000"
+            className="absolute inset-0 object-cover object-center w-full h-full scale-105 brightness-100 contrast-100 transition-all duration-1000 opacity-70"
           >
             <source src={currentSlide.bgVideo} type="video/mp4" />
           </video>
@@ -39,13 +39,13 @@ export default function HeroSection({
             fill
             priority
             quality={100}
-            className="object-cover object-center scale-105 brightness-[0.92] contrast-[1.05] transition-all duration-1000"
+            className="object-cover object-center scale-105 brightness-[0.92] contrast-[1.05] transition-all duration-1000 opacity-70"
           />
         )}
       </div>
 
-      {/* GRADIENT OVERLAY FOR HIGH-CONTRAST LEGIBILITY & AMBIENT DEPTH */}
-      <div className="absolute inset-0 z-0 bg-gradient-to-t from-slate-950 via-slate-950/35 to-slate-950/40 pointer-events-none" />
+      {/* GRADIENT OVERLAY FOR HIGH-CONTRAST LEGIBILITY & AMBIENT NAVY DEPTH */}
+      <div className="absolute inset-0 z-0 bg-gradient-to-t from-[#0f1f36] via-[#142946]/45 to-transparent pointer-events-none" />
 
       {/* SUBTLE GEOMETRIC WATERMARK GRID ACCENT */}
       <div 
